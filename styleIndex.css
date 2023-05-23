@@ -1,0 +1,218 @@
+/*Index*/
+
+body{
+    
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-size: 30%;
+    
+}
+
+header{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#container{
+    margin: auto;
+    height: 100px;
+    width: 100%;
+}
+
+#menu{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 35px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 4px;
+}
+
+#menu ul li a{
+    font-family: Arial;
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    font-family: Arial;
+    color: rgb(104, 104, 104);
+}
+
+.cars{
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(109, 105, 96);
+    margin-right: 490px;
+    margin-left: 510px;
+    margin-bottom: 300px;
+    position: relative;
+    top: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 20px 25px 38px -16px black;
+}
+
+.box h2{
+    text-align: center;
+    color: white;
+}
+
+.imagem img{
+    width: 740px;
+    height: 550px;    
+    display: flex;
+    position: relative;
+    left: 25px;
+    border-radius: 6px;
+}
+
+.box p{
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 140px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+
+#footTxt{
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+
+#footLink{
+    text-align: center;
+}
+
+#footLink ul li{
+    list-style: none;
+    display: inline;
+}
+
+#footLink ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+}
+
+#footLink ul li a:hover{
+    text-decoration: underline;
+    color: rgb(190, 190, 190);
+}
+
+#msg{
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+  /* */
+
+  .boxcar{
+    display: inline-block;
+    background-color: rgb(190, 190, 190);
+    border-radius: 25px;
+    box-shadow: 2px 25px 55px -16px black;
+    padding: 20px;
+    margin-top: 7%;
+    margin-left: 2%;
+}
+
+.coluna{
+    position: relative;
+    right: 10%;
+}
+
+#cars img{
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+#textcar h2 p h4{
+    position: relative;
+    left: 4%;
+}
+
+#textcar h2{
+    color: rgb(141, 0, 0);
+    text-align: center;
+    position: relative;
+    left: 15%;
+}
+
+#textcar h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+    position: relative;
+    left: 15%;
+    
+}
+
+#textcar p{
+    color: rgb(5, 1, 1);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px;
+    position: relative;
+    left: 15%;
+    
+}
+
+#textcar a{
+    color: rgb(97, 97, 97);
+    font-weight: normal;
+    text-decoration: none;
+   
+    
+}
+
+#textcar a:hover{
+    text-decoration: underline;
+}
+
+.button{
+    background-color:#f0c454;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:16px 33px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7d7c7d;
+    position: relative;
+    left: 35px;
+}
+.button:hover {
+	background-color:#e0ad48;
+    border-radius: 18px;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Garagem Motors</title>
+</head>
+<body>
+
+    <header>
+        <div id="container">
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>                   
+                    <li><a href="contato.html">Contato</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="box">
+            <div id="textEnviar">
+                <h2>Envie seu contato aqui:</h2>
+                <form>
+                    <p>Nome: <input type="text" id="nome" required></p>
+                    <p>Telefone: <input type="number" id="telefone" required></p>
+                    <p>Email: <input type="email" id="email" required></p><br>
+                    <textarea placeholder="mensagem"></textarea>
+                    <div id="enviar">
+                        <input type="submit" value="Enviar" onclick="validar()">
+                    </div>
+
+                   
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div id="footTxt">
+            <p>DIREITOS RESERVADOS &copy; - Garagem Motors</p>
+            <p>(11) 98989-8989</p>
+        </div>
+
+        <div id="footLink">
+            <ul>
+                <li><a href="https://br.linkedin.com">Linkedin</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+            </ul>
+        </div>
+            
+        <div id="msg"></div>
+    </footer>
+
+    <script src="scriptCont.js"></script>
+</body>
+</html>
